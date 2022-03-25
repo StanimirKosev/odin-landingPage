@@ -8,7 +8,10 @@ body{
     background-color: #1f2937;
     color:#e5e5eb;
     font-size:18px;
-    padding:20px;
+    padding-top:20px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:50px;
 }
 .logo{
     font-size: 24px;
@@ -27,4 +30,33 @@ ul{
 
 .content1 {
     background-color: #1f2937;
+    color:#e5e5eb;
+    font-size:18px;
+    display:flex;
+    flex-direction: column;
+    padding-top:20px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:50px;
 }
+.herotext{
+    
+    font-weight:900;
+    font-size: 48px;
+    color: #f9faf8;
+    max-width: 400px;
+}
+p {
+    max-width: 460px;
+}
+button{
+    color:#e5e5eb;
+    background-color: #3882f6;
+    padding:7px 30px;
+    font-size:18px;
+    font-weight: bold;
+    max-width: 130px;
+    border:0;
+    border-radius:14px;
+}
+
