@@ -1,7 +1,7 @@
 body{
     font-family: Roboto, sans-serif;
 }
-
+/*Header*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -26,7 +26,7 @@ ul{
     gap: 16px
 }
 
-
+/*Content 1*/
 
 .content1 {
     background-color: #1f2937;
@@ -59,4 +59,28 @@ button{
     border:0;
     border-radius:14px;
 }
+
+/*Content 2*/
+.title {
+    display:flex;
+    justify-content: center;
+    font-size:36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding:30px;
+}
+
+.sec2li{
+    display:flex;
+    justify-content: center;
+}
+.li{
+    max-width: 150px;
+}
+.sec2buttons{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+}
+
 
