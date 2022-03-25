@@ -117,3 +117,40 @@ p {
     padding-left: 980px;
     padding-bottom: 50px;
 }
+
+/* Content 4 */
+.content4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.bigbutton{
+    padding:55px 400px;    
+    background-color: #3882f6;
+    border:0;
+    border-radius:14px;
+    margin-left:450px;
+    margin-top: 50px;
+    display: inline;
+}
+.text{
+    display: inline;
+    justify-content:center;
+    padding: 50px;
+}
+.smallbutton{
+
+
+}
+
+/* Footer */
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e5eb;
+}
+.bb{
+    padding:20px;
+}
