@@ -78,6 +78,7 @@ p {
 }
 .li{
     max-width: 150px;
+    padding-bottom: 70px;
 }
 .sec2buttons{
     display:flex;
@@ -95,4 +96,24 @@ p {
     margin-right:15px ;
 }
 
-
+/* Content 3*/
+.content3{
+    background-color: #e5e7eb;
+     
+}
+.quote{
+    font-size: 36px;
+    font-family:"light italic";
+    color: #1F2937;
+    max-width: 1085px;
+    padding-left:500px;
+    padding-right: 500px;
+    padding-top: 100px;
+}
+.credentials{
+    font-size: 22px;
+    font-weight: bold;
+    color: #060c13;
+    padding-left: 980px;
+    padding-bottom: 50px;
+}
