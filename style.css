@@ -1,11 +1,12 @@
 body{
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif;   
 }
 * {
     margin:0;
     padding:0;
 }
-/*Header*/
+
+/* --- Header --- */
 .header{
     display: flex;
     justify-content: space-between;
@@ -30,7 +31,7 @@ ul{
     gap: 16px
 }
 
-/*Content 1*/
+/* --- Content 1 --- */
 .betteralign{
     display:flex;
     justify-content: space-between;
@@ -45,10 +46,8 @@ ul{
     padding-left:200px;
     padding-right:200px;
     padding-bottom:50px;
-    
 }
 .herotext{
-    
     font-weight:900;
     font-size: 48px;
     color: #f9faf8;
@@ -57,32 +56,30 @@ ul{
 p {
     max-width: 460px;
 }
-.sec1button{
+button {
     color:#e5e5eb;
     background-color: #3882f6;
     padding:7px 30px;
     font-size:18px;
     font-weight: bold;
     max-width: 130px;
-    border:0;
+    border:1;
     border-radius:14px;
+    border-color:white;
 }
 .forimg{
     margin-right: 270px;
     background-color: grey;
     padding:100px 100px;
-    
-
 }
 
-/*Content 2*/
+/* --- Content 2 --- */
 .content2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
 .title {
     font-size:36px;
     font-weight: 900;
@@ -98,7 +95,7 @@ p {
 .sec2li{
     padding-top:10px ;
 }  
-li {
+li{
     padding-left: 8px;
     padding-right: 10px;
     max-width: 150px;
@@ -109,7 +106,6 @@ li {
 .sec2buttons{
     background-color: white;
     padding-top: 20px;
-
 }
 .but2{
     padding: 65px;
@@ -120,60 +116,66 @@ li {
     margin-right:15px ;
 }
 
-/* Content 3*/
+/* --- Content 3 --- */
 .content3{
     background-color: #e5e7eb;
-     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
 }
 .quote{
     font-size: 36px;
-    font-family:"light italic";
+    font-style:italic;
     color: #1F2937;
-    max-width: 1085px;
-    padding-left:500px;
-    padding-right: 500px;
-    padding-top: 100px;
+    max-width: 812px;
 }
 .credentials{
     font-size: 22px;
     font-weight: bold;
     color: #060c13;
-    padding-left: 980px;
-    padding-bottom: 50px;
+    padding-left: 500px;
 }
 
-/* Content 4 */
-.content4{
+/* --- Content 4 --- */
+.betteralign3{
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .bigbutton{
-    padding:55px 400px;    
+    padding:30px 200px;    
     background-color: #3882f6;
     border:0;
     border-radius:14px;
-    margin-left:450px;
-    margin-top: 50px;
-    display: inline;
+}
+.inside{
+    display: flex;
+}
+.boldtxt{
+    font-weight: bold;
+    font-size: 24px;
 }
 .text{
-    display: inline;
-    justify-content:center;
-    padding: 50px;
-}
-.smallbutton{
-
-
+    display:flex;
+    flex-direction: column;
+    font-size:16px;
+    color: #f9faf8;
+    padding-right: 90px;
 }
 
 /* Footer */
 .footer{
     display:flex;
     justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: #e5e5eb;
+    padding: 15px;
 }
 .bb{
     padding:20px;
