@@ -1,6 +1,10 @@
 body{
     font-family: Roboto, sans-serif;
 }
+* {
+    margin:0;
+    padding:0;
+}
 /*Header*/
 .header{
     display: flex;
@@ -27,17 +31,21 @@ ul{
 }
 
 /*Content 1*/
-
-.content1 {
+.betteralign{
+    display:flex;
+    justify-content: space-between;
     background-color: #1f2937;
     color:#e5e5eb;
     font-size:18px;
+}
+.content1 {
     display:flex;
     flex-direction: column;
     padding-top:20px;
     padding-left:200px;
     padding-right:200px;
     padding-bottom:50px;
+    
 }
 .herotext{
     
@@ -59,30 +67,46 @@ p {
     border:0;
     border-radius:14px;
 }
+.forimg{
+    margin-right: 270px;
+    background-color: grey;
+    padding:100px 100px;
+    
+
+}
 
 /*Content 2*/
-.title {
-    display:flex;
-    flex-direction: row;
+.content2{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+
+.title {
     font-size:36px;
     font-weight: 900;
     color: #1f2937;
     padding:30px;
 }
-
-.sec2li{
-    display:flex;
+.betteralign2{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-top:10px ;
+    align-items: center;
 }
-.li{
+.sec2li{
+    padding-top:10px ;
+}  
+li {
+    padding-left: 8px;
+    padding-right: 10px;
     max-width: 150px;
     padding-bottom: 70px;
+    line-height: 20px;
+    text-align: center;
 }
 .sec2buttons{
-    display:flex;
-    justify-content: center;
     background-color: white;
     padding-top: 20px;
 
